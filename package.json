@@ -1,0 +1,24 @@
+{
+  "name": "serverless-nodecrud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icecreamsandwich/aws-serverless-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icecreamsandwich/aws-serverless-nodejs/issues"
+  },
+  "homepage": "https://github.com/icecreamsandwich/aws-serverless-nodejs#readme",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "mongoose": "^5.3.14"
+  }
+}
