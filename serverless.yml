@@ -93,8 +93,7 @@ functions:
       - http:
           path: notes/{id} # path will be domain.name.com/dev/notes/1
           method: delete
-          cors: true  
-
+          cors: true         
 #    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events
 #    Check the event documentation for details
