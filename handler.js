@@ -13,7 +13,8 @@ module.exports.create = (event, context, callback) => {
 	context.callbackWaitsForEmptyEventLoop = false;
 
 	connectToDatabase().then(() => {
-		Note.create(JSON.parse(event.body))
+		var jsonData = {"title": "My Second Note", "description": "whateveritmaybe"};
+		Note.create(jsonData) //JSON.parse(event.body)
 			.then(note =>
 				callback(null, {
 					statusCode: 200,
